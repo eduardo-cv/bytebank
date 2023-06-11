@@ -54,17 +54,8 @@ Duvidas : Discord
 
 6 - No visual studio code
 
-![image](https://user-images.githubusercontent.com/82802634/218653702-ca191dea-ada0-4cd5-99a3-2942db548f35.png)
-
-
 locals {
-  region = "${var.regiao["us-east-2"]}" # Definer qual regiao usar "us-east-1" ou "us-east-2"
-}
-
-variable "cidr_meu_ip" {
-  description = "Meu IP"
-  type        = string
-  default     = "0.0.0.0" # Trocar por seu ip real security acesso ssh
+  region = "${var.regiao["us-east-2"]}" # Definer qual regiao usar "us-east-1" ou "us-east-2 ou sa-east-1 "
 }
 
 7 - Abra terminal de sua preferencia na pasta que vc baixou a infra
